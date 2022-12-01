@@ -10,6 +10,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
+import { ProductComponent } from './pages/product/product.component';
+import { CatalogueComponent } from './pages/catalogue/catalogue.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    ProductComponent,
+    CatalogueComponent
   ],
   imports: [
     BrowserModule
